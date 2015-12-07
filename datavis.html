@@ -30,7 +30,12 @@
         var mapElement = document.getElementById('Hazmat');
         var map = new google.maps.Map(mapElement, mapOptions);
         var locations = [
-['Your Location', 'Your Current Location', 'undefined', 'undefined', 'undefined', 39.8210970, -84.9102600, 'https://mapbuildr.com/assets/img/markers/default.png'],['Ft. Wayne, IN', 'undefined', 'undefined', 'undefined', 'undefined', 41.0804,  -85.1392, 'https://mapbuildr.com/assets/img/markers/default.png'],['Indianapolis, IN', 'undefined', 'undefined', 'undefined', 'undefined', 39.7910,  -86.1480, 'https://mapbuildr.com/assets/img/markers/default.png'],['Marion, IN', 'undefined', 'undefined', 'undefined', 'undefined', 40.5492,  -85.6647, 'https://mapbuildr.com/assets/img/markers/default.png'],['Bloomington, IN', 'undefined', 'undefined', 'undefined', 'undefined', 39.1622,  -86.5292, 'https://mapbuildr.com/assets/img/markers/default.png'],['Muncie, IN', 'undefined', 'undefined', 'undefined', 'undefined', 40.1933,  -85.3881, 'https://mapbuildr.com/assets/img/markers/default.png']
+		['Your Location', 'Your Current Location', 'undefined', 'undefined', 'undefined', 39.8210970, -84.9102600],
+		['Ft. Wayne, IN', 'undefined', 'undefined', 'undefined', 'undefined', 41.0804,  -85.1392],
+		['Indianapolis, IN', 'undefined', 'undefined', 'undefined', 'undefined', 39.7910,  -86.1480],
+		['Marion, IN', 'undefined', 'undefined', 'undefined', 'undefined', 40.5492,  -85.6647],
+		['Bloomington, IN', 'undefined', 'undefined', 'undefined', 'undefined', 39.1622,  -86.5292],
+		['Muncie, IN', 'undefined', 'undefined', 'undefined', 'undefined', 40.1933,  -85.3881]
         ];
         for (i = 0; i < locations.length; i++) {
 			if (locations[i][1] =='undefined'){ description ='';} else { description = locations[i][1];}
