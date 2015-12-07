@@ -85,7 +85,6 @@ link = web;
             infoWindowVisible(false);
         });
  }
-}
 
   //  HTML5 geolocation.
   if (navigator.geolocation) {
@@ -120,4 +119,5 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
   infoWindow.setContent(browserHasGeolocation ?
                         'Error: Geolocation failed.' :
                         'Error: Your browser doesn\'t support geolocation.');
+	}
 }
