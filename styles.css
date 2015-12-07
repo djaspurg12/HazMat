@@ -1,0 +1,89 @@
+html {
+    height: 100%;
+	overflow: hidden;
+}
+
+body {
+    position: relative;
+    font-family: "Open Sans";
+    background: #E0E0E0;
+    height: 100%;
+}
+
+.row {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.content-wrapper {
+    background-color: #FFFFFF;
+}
+
+.chosen-container-single .chosen-single {
+    background: none;
+}
+
+.chosen-container-active.chosen-with-drop .chosen-single {
+    background: none;
+}
+
+.chosen-container .chosen-drop {
+    box-shadow: none;
+}
+
+.with-shadow {
+	box-shadow: 1px 3px 5px rgba(0, 0, 0, .3);
+}
+
+.center-block {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.control-panel-overlay {
+    position: absolute;
+    top: 0px;
+	right: 0px;
+    pointer-events: none;
+    z-index: 1;
+	padding: 0px 15px 15px;
+}
+
+.control-panel-overlay > * {
+    opacity: 1.0;
+    pointer-events: all;
+    border-radius: 0px 0px 3px 3px;
+}
+
+.bottom-plot-overlay {
+	position: absolute;
+	width: 100%;
+	height: 200px;
+	bottom: 0px;
+	padding: 0px 50px 0px 50px;
+    z-index: 10;
+	opacity: 0.0;
+	pointer-events: none;
+}
+
+.bottom-plot-overlay > * {
+	opacity: 1.0;
+	pointer-events: all;
+	border-radius: 3px 3px 0px 0px;
+}
+
+.flot-container {
+	position: static;
+	width: 100%;
+	height: 100%;
+}
+
+.error-container {
+    color: #ff0000;
+}
+
+.map-container{
+    width: 100%;
+	height: 100%;
+}
